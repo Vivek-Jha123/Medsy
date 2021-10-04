@@ -1,0 +1,20 @@
+.footer{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding: 30px;
+  
+  p{
+    font-size:18px;
+  }
+
+  .social-icon{
+    padding: 0px 50px;
+    
+    i{
+      padding: 15px;
+      font-size:20px;
+      cursor:pointer;
+    }
+  }
+}

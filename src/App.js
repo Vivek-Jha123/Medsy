@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import Topbar from "./components/topbar/Topbar";
+import Info from "./components/info/Info";
+import Product from "./components/product/Product";
+import Items from "./components/items/Items";
+import "./app.scss";
+import {useState} from "react";
+import Menu from "./components/menu/Menu";
+import Footer from "./components/footer/Footer";
+import SwipeToSlide from "./components/swipetoslide/SwipeToSlide";
+import Slider2 from "./components/slider2/Slider2";
 
 function App() {
+  const [menuOpen,setMenuOpen] = useState(false)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+      <div className="sections">
+      <SwipeToSlide/>
+      <Info/>
+      <Slider2/>
+      <Items/>
+      <Product/>
+      <Footer/>
+      </div>
     </div>
   );
 }
