@@ -8,9 +8,11 @@ import Menu from "./components/menu/Menu";
 import Footer from "./components/footer/Footer";
 import SwipeToSlide from "./components/swipetoslide/SwipeToSlide";
 import Slider2 from "./components/slider2/Slider2";
+import ItemSideBar from "./components/itemsidebar/ItemSideBar";
 
 function App() {
   const [menuOpen,setMenuOpen] = useState(false)
+  const [itemsidebarOpen,setItemSideBarOpen] = useState(false)
   return (
     <div className="app">
       <Topbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
@@ -19,7 +21,8 @@ function App() {
       <SwipeToSlide/>
       <Info/>
       <Slider2/>
-      <Items/>
+      <Items itemsidebarOpen={itemsidebarOpen} setItemSideBarOpen={setItemSideBarOpen}/>
+      <ItemSideBar itemsidebarOpen={itemsidebarOpen} setItemSideBarOpen={setItemSideBarOpen}/>
       <Product/>
       <Footer/>
       </div>

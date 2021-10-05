@@ -15,10 +15,10 @@ import Medecine13  from "../../assets/med13.jpg";
 import Medecine14  from "../../assets/med14.jpg";
 import Medecine15  from "../../assets/med15.jpg";
 
-export default function Items() {
+export default function Items({itemsidebarOpen, setItemSideBarOpen}) {
   return (
-    <div className="items" id="items">
-      <div className="photos">
+    <div className={"items " + (itemsidebarOpen && "active")} >
+      <div className="photos" onClick={()=>setItemSideBarOpen(!itemsidebarOpen)}>
       <div>
         <img src={Medecine} alt="" />
         <h3>$5</h3>
