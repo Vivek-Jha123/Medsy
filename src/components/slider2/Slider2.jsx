@@ -35,51 +35,51 @@ export default class Slider2 extends Component {
       <div className="slider2">
         <Slider {...settings}>
           <div>
-            <img src={IMG5} alt="" />
+            <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img5.png" alt="" />
             <h3>Household</h3>
           </div>
           <div>
-          <img src={IMG6} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img6.png" alt="" />
           <h3>Sexual Well-Being</h3>
           </div>
           <div>
-          <img src={IMG7} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img7.png" alt="" />
           <h3>Pregnency</h3>
        </div>
           <div>
-          <img src={IMG8} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img8.png" alt="" />
           <h3>Oral Care</h3>
           </div>
           <div>
-          <img src={IMG9} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img9.png" alt="" />
           <h3>Medecine & First Aid</h3>
           </div>
           <div>
-          <img src={IMG10} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img10.png" alt="" />
           <h3>Health And Wellness</h3>
           </div>
           <div>
-          <img src={IMG11} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img11.png" alt="" />
           <h3>Health And Protein</h3>
           </div>
           <div>
-          <img src={IMG12} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img12.png" alt="" />
           <h3>Feminine Heigyne</h3>
           </div>
           <div>
-          <img src={IMG13} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img13.png" alt="" />
           <h3>Baby Care</h3>
           </div>
           <div>
-          <img src={IMG14} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img14.png" alt="" />
           <h3>Beauty Care</h3>
           </div>
           <div>
-          <img src={IMG15} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img15.png" alt="" />
           <h3>Contraceptive</h3>
           </div>
           <div>
-          <img src={IMG16} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img16.png" alt="" />
           <h3>Face & Skin Care</h3>
           </div>
         </Slider>

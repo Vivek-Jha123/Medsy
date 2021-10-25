@@ -24,7 +24,7 @@ useEffect( (e) =>{
                         <div className="about-items" >
                         <div className="about-photo">
                         <div className="image">
-                                <img src={Medecine} alt="" />
+                                <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/med.jpg" alt="" />
                                 <h3>{data.title}</h3>
                                 <p>{data.slug}</p>
                                 <p>{data.body_text}</p>

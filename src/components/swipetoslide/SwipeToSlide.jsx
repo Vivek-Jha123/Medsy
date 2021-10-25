@@ -27,28 +27,28 @@ export default class SwipeToSlide extends Component {
       <div className="swipetoslide main-slide">
         <Slider {...settings}>
           <div>
-            <img src={IMG1} alt="" />
+            <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img1.png" alt="" />
           </div>
           <div>
-          <img src={IMG2} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img2.png" alt="" />
           </div>
           <div>
-          <img src={IMG3} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img3.png" alt="" />
        </div>
           <div>
-          <img src={IMG4} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img4.png" alt="" />
           </div>
           <div>
-          <img src={IMG1} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img1.png" alt="" />
           </div>
           <div>
-          <img src={IMG2} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img2.png" alt="" />
           </div>
           <div>
-          <img src={IMG3} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img3.png" alt="" />
           </div>
           <div>
-          <img src={IMG4} alt="" />
+          <img src="https://raw.githubusercontent.com/Vivek-Jha123/Medsy/main/src/assets/img4.png" alt="" />
           </div>
         </Slider>
       </div>
