@@ -16,6 +16,9 @@ import Medecine14  from "../../assets/med14.jpg";
 import Medecine15  from "../../assets/med15.jpg";
 
 export default function Items({itemsidebarOpen, setItemSideBarOpen}) {
+
+
+       
   return (
     <div className={"items " + (itemsidebarOpen && "active")} >
       <div className="photos" onClick={()=>setItemSideBarOpen(!itemsidebarOpen)}>
